@@ -1,0 +1,92 @@
+#week_table {
+    top: 16vw;
+	height: 80vw;
+	width: 93vw;
+	float: right;
+	left: 2vw;
+	background-color: black;
+	position: absolute;
+}
+
+#week_table .week_row {
+    height: 22vw;
+    width: 92vw;
+    float: left;
+    margin: 1vw;
+    position: relative;
+}
+
+
+#week_table .week_row .item {
+	height: 20vw;
+    width: 12vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    float: left;
+    position: relative;
+    background-color: #1c86ee;
+}
+
+#week_table .week_title_row {
+    height: 12vw;
+    width: 92vw;
+    float: left;
+    margin: 1vw;
+    position: relative;
+}
+
+#week_table .week_title_row .title {
+    height: 10vw;
+    width: 12vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    float: left;
+    position: relative;
+    background-color: #ee1289;
+}
+
+#week_table .week_title_row .title .title_text{
+    margin-top: 4vw;
+    text-align: center;
+    font: bold 2vw Arial, sans-serif;
+}
+
+#top_navigation {
+    height: 10vw;
+    width: 93vw;
+    float: right;
+    background-color: black;
+    left: 2vw;
+    position: absolute;
+}
+
+#top_navigation #previous_week_btn {
+    float: right;
+    height: 8vw;
+    width: 12vw;
+    margin: 1vw;
+    background-color: #00ffff;
+    font-size: 3vw;
+}
+
+#top_navigation #next_week_btn {
+    float: right;
+    height: 8vw;
+    width: 12vw;
+    margin: 1vw;
+    background-color: #00ffff;
+    font-size: 3vw;
+
+}
+
+#top_navigation #date_range_display {
+    float: left;
+    height: 8vw;
+    width: 24vw;
+    margin: 1vw;
+    background-color: #5dff00;
+}
+
+@media only screen and (max-width: 600px) {
+	
+}

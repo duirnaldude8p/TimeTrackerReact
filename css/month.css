@@ -1,0 +1,98 @@
+#month_table {
+    top: 16vw;
+	height: 83vw;
+	width: 93vw;
+	float: right;
+	left: 2vw;
+	background-color: black;
+	position: absolute;
+}
+
+#month_table .week_row {
+    height: 11vw;
+    width: 92vw;
+    float: left;
+    margin: 1vw;
+    position: relative;
+}
+
+
+#month_table .week_row .item {
+	height: 10vw;
+    width: 12vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    float: left;
+    position: relative;
+    background-color: #1c86ee;
+}
+
+#month_table .week_title_row {
+    height: 12vw;
+    width: 92vw;
+    float: left;
+    margin: 1vw;
+    position: relative;
+}
+
+#month_table .week_title_row .title {
+    height: 10vw;
+    width: 12vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    float: left;
+    position: relative;
+    background-color: #ee1289;
+}
+
+#month_table .week_title_row .title .title_text{
+    margin-top: 4vw;
+    text-align: center;
+    font: bold 2vw Arial, sans-serif;
+}
+
+#top_navigation {
+    height: 10vw;
+    width: 93vw;
+    float: right;
+    background-color: black;
+    left: 2vw;
+    position: absolute;
+}
+
+#top_navigation #previous_week_btn {
+    float: right;
+    height: 8vw;
+    width: 12vw;
+    margin: 1vw;
+    background-color: #00ffff;
+    font-size: 3vw;
+}
+
+#top_navigation #next_week_btn {
+    float: right;
+    height: 8vw;
+    width: 12vw;
+    margin: 1vw;
+    background-color: #00ffff;
+    font-size: 3vw;
+
+}
+
+#top_navigation #date_range_display {
+    float: left;
+    height: 8vw;
+    width: 24vw;
+    margin: 1vw;
+    background-color: #5dff00;
+}
+
+.container #month_table .week_row .item .date {
+    margin-top: 4vw;
+    text-align: center;
+    font: bold 2vw Arial, sans-serif;    
+}
+
+@media only screen and (max-width: 600px) {
+	
+}

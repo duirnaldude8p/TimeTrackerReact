@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Time Tracker</title><!-- tab title -->
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet"/>         
+</head>
+<body>
+  <!-- Page Content -->
+  <div class="container">
+      <ul>
+        <li>
+          <p class="task_name">Train employees on customer service</p>
+          <div class="pie">
+            <div id="pie_segment_a_1" class="pie_segment_a" style="--offest: 40; --value: 30; --bg: blue;"></div>
+            <div id="pie_segment_b_1" class="pie_segment_b" style="--offest: 40; --value: 30; --bg: blue;"></div>         
+          </div>
+          <p class="timer">
+            <time id="timer_1"></time>
+          </p>
+          <div class="buttons">
+            <button class="btn btn-success start_btn" id="start_btn_1" onclick="timer();">Start</button>
+            <button class="btn btn-danger stop_btn" id="stop_btn_1" onclick="stopTimer()">Stop</button>
+          </div>
+        </li>
+      </ul>
+  </div>
+  <!-- /.container -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+
+</html>

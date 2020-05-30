@@ -1,0 +1,57 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+div {
+	height: 60vw;
+	width: 40vw;
+	float: left;
+	margin: 10vw 30vw 10vw 30vw;
+	background-color: pink;
+}
+
+div form {
+	background-color: blue;
+	height: 100%;
+	width: 100%		;
+}
+
+div form #task_title_input_label {
+	height: 10%;
+	width: 40%;
+	background-color: orange;
+}
+
+div form #task_title_input {
+	height: 10%;
+	width: 60%;
+	background-color: red;
+}
+
+div form #client_name_select_label {
+	height: 10%;
+	width: 40%;
+	background-color: purple;
+}
+
+div form #client_name_select {
+	height: 10%;
+	width: 60%;
+	background-color: blue;
+}
+
+div form #start_timer_btn {
+	height: 10%;
+	width: 40%;
+	background-color: orange;
+}
+
+div form #stop_timer_btn {
+	height: 10%;
+	width: 40%;
+	background-color: orange;
+}
+
+
+

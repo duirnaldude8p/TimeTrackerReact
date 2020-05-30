@@ -1,0 +1,398 @@
+table {
+    top: 18vw;
+	height: 132vw;
+	width: 98vw;
+	float: right;
+	left: 2vw;
+	background-color: black;
+	position: absolute;
+}
+
+table tr {
+    height: 5vw;
+    width: 96vw;
+    float: right;
+    margin: 0.5vw;
+    position: relative;
+} 
+
+table tr #task_name_title {
+    height: 3vw;
+    width: 22vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+}
+
+table tr #task_name_title div {
+    height: 3vw;
+    width: 22vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+}
+
+table tr #task_name_title div p {
+    height: 2vw;
+    width: 21.4vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: orange;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+
+table tr #client_name_title {
+    height: 3vw;
+    width: 18vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+}
+
+table tr #client_name_title div {
+    height: 3vw;
+    width: 18vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+    padding: 0px;
+}
+
+table tr #client_name_title div p {
+    height: 2vw;
+    width: 17.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: orange;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+table tr #start_time_title {
+    height: 3vw;
+    width: 16vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+}
+
+table tr #start_time_title div {
+    height: 3vw;
+    width: 16vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+    padding: 0px;
+}
+
+table tr #start_time_title div p {
+    height: 2vw;
+    width: 15.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: orange;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+table tr #end_time_title {
+    height: 3vw;
+    width: 16vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+}
+
+table tr #end_time_title div {
+    height: 3vw;
+    width: 16vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+    padding: 0px;
+}
+
+table tr #end_time_title div p {
+    height: 2vw;
+    width: 15.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: orange;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+table tr #duration_title {
+    height: 3vw;
+    width: 16vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+}
+
+table tr #duration_title div {
+    height: 3vw;
+    width: 16vw;
+    float: left;
+    position: relative;
+    background-color: orange;
+    padding: 0px;
+}
+
+table tr #duration_title div p {
+    height: 2vw;
+    width: 15.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: orange;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}  
+
+table tr .task_name {
+	height: 3vw;
+    width: 22vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: #ee1289;
+}
+
+table tr .task_name div {
+    height: 3vw;
+    width: 22vw;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+table tr .task_name div p {
+    height: 2vw;
+    width: 14.5vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+table tr .task_name div input {
+    height: 2vw;
+    max-width: 12.4vw;
+    margin-top: 0.5vw;
+    margin-right: 0.3vw;
+    float: left;
+    position: relative;
+    background-color: red;   
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.1vw;
+    padding-left: 0.6vw;
+}
+
+table tr .client_name {
+    height: 3vw;
+    width: 18vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+table tr .client_name div {
+    height: 3vw;
+    width: 18vw;
+    /*margin: 0.5vw;*/
+    float: left;
+    position: relative;
+    background-color: white;
+    padding: 0px;
+}
+
+table tr .client_name div p {
+    height: 2vw;
+    width: 17.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+table tr .start_of_timer {
+    height: 3vw;
+    width: 16vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+table tr .start_of_timer div {
+    height: 3vw;
+    width: 16vw;
+    /*margin: 0.5vw;*/
+    float: left;
+    position: relative;
+    background-color: white;
+    padding: 0px;
+}
+
+table tr .start_of_timer div p {
+    height: 2vw;
+    width: 15.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+table tr .end_of_timer {
+    height: 3vw;
+    width: 16vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+table tr .end_of_timer div {
+    height: 3vw;
+    width: 16vw;
+    /*margin: 0.5vw;*/
+    float: left;
+    position: relative;
+    background-color: white;
+    padding: 0px;
+}
+
+table tr .end_of_timer div p {
+    height: 2vw;
+    width: 15.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+table tr .duration_of_timer {
+    height: 3vw;
+    width: 16vw;
+    margin: 0.5vw;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+table tr .duration_of_timer div {
+    height: 3vw;
+    width: 16vw;
+    /*margin: 0.5vw;*/
+    float: left;
+    position: relative;
+    background-color: white;
+    padding: 0px;
+}
+
+table tr .duration_of_timer div p {
+    height: 2vw;
+    width: 15.6vw;
+    float: left;
+    margin-top: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    position: relative;
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+}
+
+#top_navigation {
+    height: 10vw;
+    width: 99vw;
+    float: right;
+    background-color: black;
+    left: 2vw;
+    position: absolute;
+}
+
+#top_navigation #add_task_btn {
+    float: right;
+    height: 8vw;
+    width: 20vw;
+    margin: 1vw;
+    background-color: #00ffff;
+    font-size: 3vw;
+}
+
+#top_navigation #add_client_btn {
+    float: right;
+    height: 8vw;
+    width: 20vw;
+    margin: 1vw;
+    background-color: #00ffff;
+    font-size: 3vw;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	
+}
