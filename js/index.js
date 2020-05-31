@@ -1,14 +1,22 @@
 
 	let stopTime = true;
 	let timerIntvl = null;
-    let halfTimerIntvl = 0;
 	let hours = 0;
 	let minutes = 0;
 	let seconds = 0;
 	let stringTime = ""
 	let timeLimit = 0;
-	let halfTimeLimit = 0;
-	let degrees = 0;
+
+
+	function timeToDecimal(t) {
+	    let arr = t.split(':');
+	    let h = parseInt((arr[0]/6)*10, 10);
+	    let m = parseInt(arr[1], 10);
+	    let s = arr[2] * 0.1;
+
+	    return parseFloat(h + m + s);
+	}  
+
 
 	function getTimeString(hours, minutes, seconds) {
 		if(hours < 10) {
@@ -27,21 +35,10 @@
 	}
 
     function timer() {
-    	timerIntvl = setInterval(timerHelper, 1000);
+    	
     	// timeLimit = prompt("Please enter a time limit in hours");
-    	timeLimit = 0.0825
-    	halfTimeLimit = timeLimit / 2.0;
-    	halfTimerIntvl = timerIntvl / 2.0;
-        degrees = 180 / halfTimerIntvl;
-        let segment_a = document.getElementById('pie_segment_a_1');
-        let segment_b = document.getElementById('pie_segment_b_1');
-        // if(timerIntvl < halfTimeLimit) {
-        //     segment_a.style.transform = "translate(0, 100%) rotate("+(180)+"deg)";
-        //     segment_a.style.transform = "translate(0, 100%) rotate("+(degrees)+"deg)";
-        // } else {
-        // 	segment_a.style.transform = "translate(0, 100%) rotate("+(degrees)+"deg)";
-        //     segment_a.style.transform = "translate(0, 100%) rotate("+(0)+"deg)";
-        // }
+    	timeLimit = 0.0825  
+    	timerIntvl = setInterval(timerHelper, 1000);      
     }
 
 	function timerHelper() {
@@ -60,9 +57,13 @@
 
 
 	    stringTime = getTimeString(hours, minutes, seconds);
-
+	    let time = timeToDecimal(stringTime);
 	    document.getElementById("timer_1").innerHTML = stringTime;
-	    console.log("index - timer: "+stringTime);
+	    
+	    let precentage = (time / timeLimit);
+    	let rest = 1 - precentage;
+    	document.getElementById("pie_1").style.backgroundImage = "conic-gradient(green "+precentage+"%, white "+rest+"%)";
+	    console.log("stringTime: "+stringTime+" timeLimit: "+timeLimit+" time "+time+" precentage "+precentage+" rest "+rest);
 	}
 
 	function stopTimer() {

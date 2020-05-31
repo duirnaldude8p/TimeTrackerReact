@@ -3,81 +3,64 @@ ul {
 	width: 84vw;
 }
 
+body {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+body .container {
+	padding: 0 !important;
+	margin: auto;
+}
+
+ul {
+	padding: 0 !important;
+	margin: 0 !important;
+	float: left;
+}
+
 ul li {
 	width: 80vw;
+	float: left;
 }
 
 ul li p {
 	text-align: center;
+	margin: 0;
+	font-size: 6vw;
+	font-weight: bold;
 }
 
 ul li .start_btn {
-    width: 48%;
-    margin-left: 1%;
+    width: 38vw;
+    margin-left: 1vw;
 }
 
 ul li .stop_btn {
-    width: 48%;
-    /*margin: 1%;*/
+    width: 38vw;
 }
 
-ul li time {
+ul li .timer {
+	margin: auto;
+}
+
+ul li .timer time {
 	text-align: center;
+	margin: auto;
+	font-size: 5vw;
+	font-weight: bold;
 }
 
 ul li .pie {
-	width: calc(var(--size, 200) * 1px);
-	height: calc(var(--size, 200) * 1px);
-	position: relative;
-	border-radius: 100%;
-	background-color: green;
-	/*margin: auto;*/
+    width: 68vw;
+    height: 68vw;
+    background-image: conic-gradient(green 100%, white 0%);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
-
-ul li .pie .pie_segment_a {
-	/*border: 5px dashed #000; */
-	/*background: #fff;*/
-	height: 100%;
-	overflow: hidden;
-	position: absolute;
-	transform: translate(0, -50%) rotate(225deg) rotate(calc(var(--offset, 0) * 1deg));
-	transform-origin: 50% 100%;
-	width: 100%;
-}
-
-ul li .pie .pie_segment_a:before {
-	background: #fff;
-	content: '';
-	/*border: 5px dashed #000; */
-	height: 100%;
-	position: absolute;
-	transform: translate(0, 100%) rotate(45deg);
-	transform-origin: 50% 0;
-	width: 100%;
-}
-
-ul li .pie .pie_segment_b {
-	/*border: 5px dashed #000; */
-	/*background: #fff;*/
-	height: 100%;
-	overflow: hidden;
-	position: absolute;
-	transform: translate(0, -50%) rotate(-90deg) rotate(calc(var(--offset, 0) * 1deg));
-	transform-origin: 50% 100%;
-	width: 100%;
-}
-
-ul li .pie .pie_segment_b:before {
-	background: #fff;
-	content: '';
-	/*border: 5px dashed #000; */
-	height: 100%;
-	position: absolute;
-	transform: translate(0, 100%) rotate(180deg);
-	transform-origin: 50% 0;
-	width: 100%;
-}
-
 
 
 
